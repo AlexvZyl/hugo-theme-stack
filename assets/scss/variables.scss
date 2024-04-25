@@ -141,11 +141,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Thanks to https://www.figma.com/community/plugin/744987207861965946/Shadow-picker
 */
 :root {
-    --shadow-l1: 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4);
-    --shadow-l2: 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4);
-    --shadow-l3: 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4);
-    --shadow-l4: 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4), 0px 10px 20px rgba(0, 0, 0, 0.4),
-        0px 10px 20px rgba(0, 0, 0, 0.4);
+    --shadow-l1: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3);
+    --shadow-l2: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3);
+    --shadow-l3: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3);
+    --shadow-l4: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3),
+        0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 [data-scheme="light"] {
