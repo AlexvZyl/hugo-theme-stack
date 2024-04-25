@@ -216,12 +216,12 @@
         position: relative;
         height: 350px;
         width: 250px;
-        box-shadow: var(--shadow-l1);
+        box-shadow: var(--shadow-l5);
         transition: box-shadow 0.3s ease;
         background-color: var(--card-background);
 
         &:hover {
-            box-shadow: var(--shadow-l2);
+            box-shadow: var(--shadow-l5);
         }
 
         &.has-image {
