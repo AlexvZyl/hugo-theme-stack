@@ -30,6 +30,7 @@ let Stack = {
         /**
          * Add linear gradient background to tile style article
          */
+        /*
         const articleTile = document.querySelector('.article-list--tile');
         if (articleTile) {
             let observer = new IntersectionObserver(async (entries, observer) => {
@@ -48,8 +49,8 @@ let Stack = {
                         const colors = await getColor(key, hash, imageURL);
 
                         articleDetails.style.background = `
-                        linear-gradient(0deg, 
-                            rgba(${colors.DarkMuted.rgb[0]}, ${colors.DarkMuted.rgb[1]}, ${colors.DarkMuted.rgb[2]}, 0.5) 0%, 
+                        linear-gradient(0deg,
+                            rgba(${colors.DarkMuted.rgb[0]}, ${colors.DarkMuted.rgb[1]}, ${colors.DarkMuted.rgb[2]}, 0.5) 0%,
                             rgba(${colors.Vibrant.rgb[0]}, ${colors.Vibrant.rgb[1]}, ${colors.Vibrant.rgb[2]}, 0.75) 100%)`;
                     })
                 })
@@ -57,6 +58,7 @@ let Stack = {
 
             observer.observe(articleTile)
         }
+        */
 
 
         /**
