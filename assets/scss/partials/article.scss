@@ -39,6 +39,7 @@
                 .article-category a {
                     background: nth($defaultTagBackgrounds, $i);
                     color: nth($defaultTagColors, $i);
+                    box-shadow: var(--shadow-article-category);
                 }
             }
         }
