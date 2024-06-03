@@ -245,6 +245,11 @@
     figure {
         text-align: center;
 
+        img {
+          border-radius: 10px;
+          box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.45);
+        }
+
         figcaption {
             font-size: 1.4rem;
             color: var(--card-text-color-secondary);
